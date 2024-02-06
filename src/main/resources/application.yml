@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: root
+        password: my-secret-pw
+        url: jdbc:mysql://localhost:3306/EmployeeApiSystemApplication
+
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create
+            format-sql: true
